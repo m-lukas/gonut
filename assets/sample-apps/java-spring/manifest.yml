@@ -1,8 +1,7 @@
 ---
 applications:
-- name: java-spring
+- name: java-spring-sample-app
   memory: 640M
   disk_quota: 128MB
   buildpacks: 
   - java_buildpack
-  path: target/java-spring-1.0.0.jar
